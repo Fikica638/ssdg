@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0f7fa;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.title {
+    color: #00acc1;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.countdown, .date-now, .age-calculator {
+    margin: 20px 0;
+}
+
+#countdown-timer, #current-date, #age-result {
+    font-size: 1.2em;
+    color: #007c91;
+    animation: fadeIn 1s ease-in-out;
+}
+
+button {
+    background-color: #00acc1;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #007c91;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

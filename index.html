@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Year's Countdown & Age Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Countdown to New Year's</h1>
+        
+        <div class="countdown">
+            <p id="countdown-timer">Loading...</p>
+        </div>
+        
+        <div class="date-now">
+            <p>Today's Date: <span id="current-date"></span></p>
+        </div>
+        
+        <div class="age-calculator">
+            <h2>Calculate Your Age</h2>
+            <input type="date" id="birthdate" placeholder="Enter your birth date">
+            <button onclick="calculateAge()">Calculate Age</button>
+            <p id="age-result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
